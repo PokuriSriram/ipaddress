@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | IP Address Tracker</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="user">
+      <h1>IP Address Tracker</h1>
+      <div class="upper">
+        <input
+          id="ipinput"
+          type="text"
+          placeholder="Search for any IP address or domain"
+        />
+        <button id="btn" class="btn">></button>
+      </div>
+      </div>
+      <div class="separate">
+        <div class="sec">
+          <p class="text">IP ADDRESS</p>
+          <h3 id="ip">192.212.174.101</h3>
+        </div>
+        <div class="sec">
+          <p class="text">LOCATION</p>
+          <h3 id="location">Brooklyn,NY 10001</h3>
+        </div>
+        <div class="sec">
+          <p class="text">TIMEZONE</p>
+          <h3 id="timezone">UTC-5:00</h3>
+        </div>
+        <div class="sec">
+          <p class="text">ISP</p>
+          <h3 id="isp">192.212.174.101</h3>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
