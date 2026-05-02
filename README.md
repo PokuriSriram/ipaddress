@@ -1,4 +1,4 @@
-#📍 IP Address Finder Web App
+# 📍 IP Address Finder Web App
 
 A simple and responsive web application that allows users to find details of any IP address, including location, timezone, and ISP (Internet Service Provider).
 
@@ -36,7 +36,7 @@ ip-address-finder/
 
 Clone the repository:
 
-git clone https://github.com/your-username/ip-address-finder.git
+git clone https://github.com/PokuriSriram/ipaddress.git
 
 Navigate to the project folder:
 
